@@ -15,8 +15,9 @@ git clone https://github.com/steemit/bluepaper && cd blupaper
 
 Bluepaper.pdf should be created.
 
+## Ubuntu 16.04 or higher
 
-## Installation Instructions
+### Installation Instructions
 
 Install packages
 ```bash
@@ -30,9 +31,7 @@ Clone repository
 git clone https://github.com/steemit/bluepaper
 ```
 
-## Build Instructions
-
-### Ubuntu 16.04 or higher
+### Build Instructions
 
 Open the bluepaper directory
 ```bash
