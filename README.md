@@ -2,7 +2,7 @@
 
 This repository contains the LaTeX source code for the Bluepaper. The instructions to clone the repository and build the PDF using pandoc are described below.
 
-Currently the build instructions are for Ubuntu 16.04 or higher. There is also separate script, which will build the PDF using docker, that can be used on other operating systems. Users are welcome to try out the build in their local environments and submit a pull request to update the readme instructions if they are able to get it to successfully build natively on a different OS.
+Currently the build instructions are for Ubuntu 16.04 or higher. There is also separate script, which will build the PDF using docker, and can be used on other operating systems. Users are welcome to try out the build in their local environments and submit a pull request to update the readme instructions if they are able to get it to successfully build natively on a different OS.
 
 ## Using docker
 
