@@ -36,11 +36,11 @@ In addition to these advancements in blockchain and token technology, Steem as a
 
 ## Proof of Brain: Smart and Social Tokens
 
-Token systems that reward users as they contribute to a token-based community system require mechanisms for establishing and evaluating content’s social value: we call this “Proof-of-Brain.” 
+Token systems that reward users as they contribute to a token-based community system require mechanisms for establishing and evaluating content’s social value: we call this “Proof-of-Brain.”
 
 ### The Rewards Pool (“Where do the tokens come from?”)
 
-One of the most innovative (and most misunderstood) aspects of the Steem blockchain is the “Rewards Pool” from which tokens are distributed to valuable content creators. In order to understand what the Rewards Pool is, one first needs to understand that tokens are produced differently in DPoS blockchains than they are in PoW blockchains. In traditional PoW blockchains, tokens are produced regularly but randomly distributed to the people whose machines are performing work (“miners”). 
+One of the most innovative (and most misunderstood) aspects of the Steem blockchain is the “Rewards Pool” from which tokens are distributed to valuable content creators. In order to understand what the Rewards Pool is, one first needs to understand that tokens are produced differently in DPoS blockchains than they are in PoW blockchains. In traditional PoW blockchains, tokens are produced regularly but randomly distributed to the people whose machines are performing work (“miners”).
 
 Different from PoW-only cryptocurrencies, tokens in Steem are generated at a fixed rate of one block every three seconds. These tokens get distributed to various actors in the system based on the defined rules of the blockchain. These actors, such as content creators, witnesses, and curators, compete in specialized ways for the tokens. Unlike the traditional PoW means of distribution, where miners are competing over raw computing power, the actors in the Steem network are incentivized to compete in ways that add value to the network.
 
@@ -94,11 +94,11 @@ Wallet addresses used by many blockchain technologies, such as Bitcoin and Ether
 
 ### Steem Blockchain Dollars (SBD)
 
-Many users who are introduced to cryptocurrency struggle to comprehend how “magic internet tokens” awarded by the platform can actually have real world value. In order to help bridge the gap between more traditional fiat money systems which mainstream users are used to, and the cryptocurrency tokens which they are awarded through the platform, a new currency called Steem Blockchain Dollars (SBD) was created. 
+Many users who are introduced to cryptocurrency struggle to comprehend how “magic internet tokens” awarded by the platform can actually have real world value. In order to help bridge the gap between more traditional fiat money systems which mainstream users are used to, and the cryptocurrency tokens which they are awarded through the platform, a new currency called Steem Blockchain Dollars (SBD) was created.
 
 SBD tokens are designed to be pegged closely to one USD, so that users who receive them can know approximately how much they are worth in “real dollar” terms. SBD tokens also offer a relatively stable currency for users to hold if they are looking to preserve their account value relative to USD. A more detailed technical explanation can be found in the Steem technical whitepaper.[^fn12]
 
-### Decentralized Exchange 
+### Decentralized Exchange
 
 The Steem blockchain offers a decentralized token exchange, similar to the Bitshares exchange.[^fn13] The exchange allows users to trade their STEEM and SBD tokens through a public decentralized peer-to-peer market. Users are able to place buy and sell orders, and order matching is performed automatically by the blockchain. There is also a publicly accessible order book and order history which users can use to analyze the market. Users can interact with the exchange directly using the blockchain API, or use a GUI such as the one on Steemit.com.[^fn14]
 
@@ -108,11 +108,11 @@ The irreversible nature of blockchain transactions is an important security feat
 
 ### Hierarchical Private Key Structure
 
-Steem employs a first of its kind hierarchical private key system to facilitate low-security and high-security transactions. Low-security transactions tend to be social, such as posting or commenting. High-security transactions tend to be transfers and key changes. This allows users to implement different levels of security for their keys, depending on the access that the keys allow. 
+Steem employs a first of its kind hierarchical private key system to facilitate low-security and high-security transactions. Low-security transactions tend to be social, such as posting or commenting. High-security transactions tend to be transfers and key changes. This allows users to implement different levels of security for their keys, depending on the access that the keys allow.
 
 These private keys are the Posting, Active and Owner. The posting key allows accounts to post, comment, edit, vote, resteem[^fn15], and follow/mute other accounts. The active key is meant for more sensitive tasks such as transferring funds, power up/down transactions, converting Steem Dollars, voting for witnesses, placing market orders, and resetting the posting key. The owner key is only meant for use when necessary. It is the most powerful key because it can change any key of an account, including the owner key, and to prove ownership during an Account Recovery. Ideally it is meant to be stored offline, and only used when the account’s keys need to be changed or to recover a compromised account.
 
-Steem also facilitates the use of a Master Password that encrypts all three keys. Webservices can use a Master Password that decrypts and signs with the necessary private key.  Master Passwords may allow users to trust certain services to keep improper keys from being transferred across any servers, thus increasing user experience while maintaining a secure client-side signing environment.
+Steem also facilitates the use of a Master Password that encrypts all three keys. Webservices can use a Master Password that decrypts and signs with the necessary private key. Master Passwords may allow users to trust certain services to keep improper keys from being transferred across any servers, thus increasing user experience while maintaining a secure client-side signing environment.
 
 ### Multi Sig Authorities
 
@@ -124,11 +124,11 @@ For any given post there may be a number of different people who have a financia
 
 ### Smart Media Tokens (SMT)
 
-This protocol layer is under development. Its whitepaper will be posted here. 
+This protocol layer is under development. Its whitepaper will be posted here.
 
 ### Stolen Account Recovery
 
-If a user’s account is compromised, they may change their keys using their private owner key. In the event that the attacker is able to compromise the private owner key and change the password on the account, the user has 30 days to submit a previously functional private key through Steem’s industry-first stolen account recovery process, and regain control over their account.  This may be offered by a person or company who provides registration services to Steem.  It is not mandatory for the registrar to provide this service to its users, but it is available to increase the value of a registrar's users’ experience.
+If a user’s account is compromised, they may change their keys using their private owner key. In the event that the attacker is able to compromise the private owner key and change the password on the account, the user has 30 days to submit a previously functional private key through Steem’s industry-first stolen account recovery process, and regain control over their account. This may be offered by a person or company who provides registration services to Steem. It is not mandatory for the registrar to provide this service to its users, but it is available to increase the value of a registrar's users’ experience.
 
 ### Security Through Time-Locks
 
