@@ -191,7 +191,7 @@ This allows for various forms of collaboration, as well as a way for platforms t
 ### Smart Media Tokens (SMT)
 
 This protocol layer is under development.
-Its whitepaper will be posted here.
+Its whitepaper is posted [here](https://smt.steem.io/smt-whitepaper.pdf).
 
 ### Stolen Account Recovery
 
