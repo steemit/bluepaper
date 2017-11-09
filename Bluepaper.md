@@ -190,8 +190,9 @@ This allows for various forms of collaboration, as well as a way for platforms t
 
 ### Smart Media Tokens (SMT)
 
-This protocol layer is under development.
-Its whitepaper will be posted here.
+Smart Media Tokens are native tokens that can be built on the Steem blockchain.
+STEEM is the first SMT to ever exist, and the Smart Media Token protocol aims to monetize content websites and applications across the web by allowing people to create tokens that possess properties similar to STEEM, but customizable to suit the vision of any online community through incentivized behavior, essentially replicating STEEMs success to any website or application.
+More technical details can be found in the Smart Media Tokens whitepaper[^fn17].
 
 ### Stolen Account Recovery
 
@@ -267,3 +268,8 @@ https://steemit.com/market
 [^fn16]: Bitshares Flexible Identity Management
 \hfill\break
 http://docs.bitshares.org/_downloads/bitshares-general.pdf
+[^fn17]: Smart Media Tokens Whitepaper
+\hfill\break
+https://smt.steem.io/smt-whitepaper.pdf
+
+
